@@ -3,7 +3,7 @@
 package hashprobe
 
 import (
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/sparse"
 	"golang.org/x/sys/cpu"
 )
 

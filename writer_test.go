@@ -23,13 +23,13 @@ import (
 	"github.com/hexops/gotextdiff/myers"
 	"github.com/hexops/gotextdiff/span"
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/bloom"
-	"github.com/parquet-go/parquet-go/compress"
-	"github.com/parquet-go/parquet-go/compress/zstd"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/encoding/thrift"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/bloom"
+	"github.com/AlexAslan/parquet-go/compress"
+	"github.com/AlexAslan/parquet-go/compress/zstd"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 const (
@@ -1124,7 +1124,7 @@ var writerTests = []struct {
 		},
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message firstAndLastName {
@@ -1166,7 +1166,7 @@ Column: last_name
 		},
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message firstAndLastName {
@@ -1216,7 +1216,7 @@ Column: last_name
 		},
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message timeseries {
@@ -1289,7 +1289,7 @@ Column: value
 		},
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message AddressBook {
@@ -1368,7 +1368,7 @@ Column: contacts.phoneNumber
 
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message AddressBook {
@@ -1427,7 +1427,7 @@ Column: contacts.phoneNumber
 		},
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message event {
@@ -1466,7 +1466,7 @@ Column: value
 		},
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message timeseriesNoEncoding {
@@ -1513,7 +1513,7 @@ Column: value
 		defaultEncoding: &parquet.Plain,
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message timeseriesNoEncoding {
@@ -1564,7 +1564,7 @@ Column: value
 		},
 		dump: `
 File path:  {file-path}
-Created by: github.com/parquet-go/parquet-go
+Created by: github.com/AlexAslan/parquet-go
 Properties: (none)
 Schema:
 message timeseriesNoEncoding {
@@ -3120,7 +3120,7 @@ func TestDictionaryMaxBytesMultipleRowGroups(t *testing.T) {
 }
 
 // TestIssue185 reproduces the issue reported in
-// https://github.com/parquet-go/parquet-go/issues/185
+// https://github.com/AlexAslan/parquet-go/issues/185
 // where rewriting a parquet file with nested types using GenericWriter[any]
 // causes a panic in the reflection layer.
 func TestIssue185(t *testing.T) {
@@ -3207,7 +3207,7 @@ func TestIssue185(t *testing.T) {
 }
 
 // TestIssue316 reproduces the issue reported in
-// https://github.com/parquet-go/parquet-go/issues/316
+// https://github.com/AlexAslan/parquet-go/issues/316
 // where nested maps with pointer struct values cause a panic when some of
 // the inner maps are nil.
 func TestIssue316(t *testing.T) {
@@ -3317,7 +3317,7 @@ func TestIssue316(t *testing.T) {
 }
 
 // TestIssue118 reproduces the issue reported in
-// https://github.com/parquet-go/parquet-go/issues/118
+// https://github.com/AlexAslan/parquet-go/issues/118
 // The issue was that []*string (slice of pointers to strings) was not
 // properly supported, causing a panic when writing.
 func TestIssue118(t *testing.T) {

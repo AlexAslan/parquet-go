@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/delta"
-	"github.com/parquet-go/parquet-go/encoding/fuzz"
-	"github.com/parquet-go/parquet-go/encoding/test"
+	"github.com/AlexAslan/parquet-go/encoding/delta"
+	"github.com/AlexAslan/parquet-go/encoding/fuzz"
+	"github.com/AlexAslan/parquet-go/encoding/test"
 )
 
 func FuzzDeltaBinaryPackedInt32(f *testing.F) {

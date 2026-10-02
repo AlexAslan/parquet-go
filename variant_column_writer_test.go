@@ -10,8 +10,8 @@ import (
 	"testing"
 	"unsafe"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // The tests in this file validate the streaming columnar write path

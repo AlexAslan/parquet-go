@@ -4,7 +4,7 @@ import (
 	"io"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 // Filter is an interface representing read-only bloom filters where programs

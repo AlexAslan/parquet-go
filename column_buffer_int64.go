@@ -6,9 +6,9 @@ import (
 	"strconv"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/internal/memory"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 type int64ColumnBuffer struct{ int64Page }

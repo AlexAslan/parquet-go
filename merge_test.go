@@ -13,8 +13,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 const (
@@ -3560,7 +3560,7 @@ func BenchmarkMergeRowReaders(b *testing.B) {
 }
 
 // TestMergeRowGroupsDescendingSortingColumns is a regression test for
-// https://github.com/parquet-go/parquet-go/issues/564: the non-overlapping
+// https://github.com/AlexAslan/parquet-go/issues/564: the non-overlapping
 // segment optimization computed row group bounds in value order, which
 // inverted the first/last rows of row groups sorted in descending order.
 func TestMergeRowGroupsDescendingSortingColumns(t *testing.T) {

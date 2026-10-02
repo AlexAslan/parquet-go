@@ -6,7 +6,7 @@ import (
 	"unsafe"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 func (d *int32Dictionary) lookup(indexes []int32, rows sparse.Array) {

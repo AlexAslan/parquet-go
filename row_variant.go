@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"unsafe"
 
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // variantMarshalOrNull marshals a reflect.Value to variant binary. If the

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 // BufferPool is an interface abstracting the underlying implementation of

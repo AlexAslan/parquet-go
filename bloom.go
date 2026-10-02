@@ -7,12 +7,12 @@ import (
 	"sync"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/bloom"
-	"github.com/parquet-go/parquet-go/bloom/xxhash"
-	"github.com/parquet-go/parquet-go/compress"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/bloom"
+	"github.com/AlexAslan/parquet-go/bloom/xxhash"
+	"github.com/AlexAslan/parquet-go/compress"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // BloomFilter is an interface allowing applications to test whether a key

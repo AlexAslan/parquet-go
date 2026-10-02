@@ -3,8 +3,8 @@ package parquet
 import (
 	"io"
 
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 type fixedLenByteArrayPage struct {

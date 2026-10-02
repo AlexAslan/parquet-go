@@ -5,7 +5,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // TestBuildShreddedVariantGroupRejectsInvalidSchemas pins the schema-shape

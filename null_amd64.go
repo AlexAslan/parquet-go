@@ -2,7 +2,7 @@
 
 package parquet
 
-import "github.com/parquet-go/parquet-go/sparse"
+import "github.com/AlexAslan/parquet-go/sparse"
 
 func nullIndexBool(bits []uint64, rows sparse.Array) {
 	nullIndex8(&bits[0], rows)

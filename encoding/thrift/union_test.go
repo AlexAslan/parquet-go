@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
 )
 
 // UnionUnregistered satisfies UnionValue but is deliberately absent from

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 func writeValueFuncOfVariant(columnIndex uint16, node Node) (uint16, writeValueFunc) {

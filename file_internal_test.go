@@ -6,8 +6,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // TestFilePagesSeekToRowEmptyOffsetIndex tests that SeekToRow(0) returns nil

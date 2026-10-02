@@ -3,7 +3,7 @@ package memory
 import (
 	"unsafe"
 
-	"github.com/parquet-go/parquet-go/internal/unsafecast"
+	"github.com/AlexAslan/parquet-go/internal/unsafecast"
 )
 
 // slice is a wrapper around a slice to enable pooling.

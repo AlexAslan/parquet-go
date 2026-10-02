@@ -3,7 +3,7 @@ package parquet
 import (
 	"fmt"
 
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // This file teaches schema conversion to read shredded variant columns.

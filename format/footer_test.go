@@ -7,8 +7,8 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // loadAllFooters extracts the raw footer bytes of every readable plain

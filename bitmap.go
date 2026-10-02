@@ -1,6 +1,6 @@
 package parquet
 
-import "github.com/parquet-go/parquet-go/internal/memory"
+import "github.com/AlexAslan/parquet-go/internal/memory"
 
 type bitmap struct {
 	bits []uint64

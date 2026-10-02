@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/format"
 	"github.com/twpayne/go-geom"
 	"github.com/twpayne/go-geom/encoding/wkb"
 )
@@ -558,7 +558,7 @@ func TestOptionalTimeWithNanosecond(t *testing.T) {
 	}
 }
 
-// TestIssue155 verifies the fix for https://github.com/parquet-go/parquet-go/issues/155
+// TestIssue155 verifies the fix for https://github.com/AlexAslan/parquet-go/issues/155
 // The issue reported that empty time.Time{} values were being serialized as "1754-08-30"
 // instead of being preserved as zero values (NULL) when using optional timestamp fields.
 func TestIssue155(t *testing.T) {
@@ -614,7 +614,7 @@ func TestIssue155(t *testing.T) {
 	}
 }
 
-// TestIssue45 reproduces https://github.com/parquet-go/parquet-go/issues/45
+// TestIssue45 reproduces https://github.com/AlexAslan/parquet-go/issues/45
 // Issue #45: using *int32 with date tag or *int64 with timestamp tag causes a panic.
 func TestIssue45(t *testing.T) {
 	type Record struct {
@@ -680,7 +680,7 @@ func TestIssue45(t *testing.T) {
 	}
 }
 
-// TestIssue326 reproduces https://github.com/parquet-go/parquet-go/issues/326
+// TestIssue326 reproduces https://github.com/AlexAslan/parquet-go/issues/326
 // Issue #326: using *time.Time (pointer) with timestamp(millisecond) tag causes a panic.
 func TestIssue326(t *testing.T) {
 	type Person struct {

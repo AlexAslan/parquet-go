@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 // TestWriteReadNullOnlyColumn tests writing and reading back a row with a null optional field

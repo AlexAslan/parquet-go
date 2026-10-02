@@ -6,9 +6,9 @@ import (
 	"unsafe"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/internal/bytealg"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/internal/bytealg"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 // nullIndexFunc is the type of functions used to detect null values in rows.

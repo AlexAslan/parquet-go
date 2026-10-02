@@ -3,7 +3,7 @@ package parquet
 import (
 	"slices"
 
-	"github.com/parquet-go/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding"
 )
 
 // computeUnencodedByteArraySize calculates the unencoded size of byte array data

@@ -872,7 +872,7 @@ func TestJsonliteArrayOfPrimitives(t *testing.T) {
 
 // TestOptionalListNullVsEmpty tests that nil slices and empty slices are
 // distinguishable when written to and read from parquet files with list,optional tags.
-// See: https://github.com/parquet-go/parquet-go/issues/7
+// See: https://github.com/AlexAslan/parquet-go/issues/7
 func TestOptionalListNullVsEmpty(t *testing.T) {
 	type Row struct {
 		ListTag []int32 `parquet:"list_tag,list,optional"`

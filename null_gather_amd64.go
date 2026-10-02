@@ -2,7 +2,7 @@
 
 package parquet
 
-import "github.com/parquet-go/parquet-go/sparse"
+import "github.com/AlexAslan/parquet-go/sparse"
 
 // The VPGATHER based null index kernels, shared by both the assembly build
 // (as the whole implementation) and the GOEXPERIMENT=simd build (for

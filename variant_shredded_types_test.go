@@ -8,8 +8,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // TestShreddedVariantTypedValueMatrix exhaustively exercises the shredded

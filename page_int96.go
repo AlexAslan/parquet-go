@@ -4,8 +4,8 @@ import (
 	"io"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding"
 )
 
 type int96Page struct {

@@ -5,9 +5,9 @@ import (
 	"math/bits"
 	"reflect"
 
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // Int constructs a leaf node of signed integer logical type of the given bit

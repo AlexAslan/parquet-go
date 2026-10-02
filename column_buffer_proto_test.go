@@ -15,7 +15,7 @@ import (
 	"google.golang.org/protobuf/types/known/timestamppb"
 	"google.golang.org/protobuf/types/known/wrapperspb"
 
-	testproto "github.com/parquet-go/parquet-go/testdata/gen/go"
+	testproto "github.com/AlexAslan/parquet-go/testdata/gen/go"
 )
 
 func TestProtoTimestamps(t *testing.T) {

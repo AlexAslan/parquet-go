@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 // TestReadPageIndexDoesNotAliasOffsetIndex is a regression test for the column

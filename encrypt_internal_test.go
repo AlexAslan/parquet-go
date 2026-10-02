@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // TestValidateRowGroupOrdinalsAllZeroBackfilled covers the "writer omitted the

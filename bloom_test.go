@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/bloom"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/internal/quick"
+	"github.com/AlexAslan/parquet-go/bloom"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/internal/quick"
 )
 
 func TestSplitBlockFilter(t *testing.T) {

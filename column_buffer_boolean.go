@@ -4,9 +4,9 @@ import (
 	"io"
 
 	"github.com/parquet-go/bitpack"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/internal/memory"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 type booleanColumnBuffer struct{ booleanPage }
@@ -177,7 +177,7 @@ func (col *booleanColumnBuffer) writeBoolean(levels columnLevels, value bool) {
 // clearTrailingBits zeros bit positions beyond numValues in the last byte of
 // the bit-packed buffer. SliceBuffer growth does not zero new bytes, so a
 // partial trailing byte can otherwise leak stale pool memory and produce
-// non-deterministic encoded output (https://github.com/parquet-go/parquet-go/issues/520).
+// non-deterministic encoded output (https://github.com/AlexAslan/parquet-go/issues/520).
 func (col *booleanColumnBuffer) clearTrailingBits() {
 	extra := uint(col.numValues) % 8
 	if extra == 0 {

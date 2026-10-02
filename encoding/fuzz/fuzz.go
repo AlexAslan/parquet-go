@@ -7,7 +7,7 @@ import (
 	"unsafe"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding"
 )
 
 func EncodeBoolean(f *testing.F, e encoding.Encoding) {

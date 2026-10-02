@@ -6,7 +6,7 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 func TestDecimalInt64PanicMessage(t *testing.T) {
@@ -82,7 +82,7 @@ func TestCompareDecimalByteArrays(t *testing.T) {
 // unsigned byte order of the physical type under which every negative value
 // sorts above every positive value.
 //
-// https://github.com/parquet-go/parquet-go/issues/592
+// https://github.com/AlexAslan/parquet-go/issues/592
 func TestDecimalStatistics(t *testing.T) {
 	tests := []struct {
 		name    string

@@ -4,9 +4,9 @@ import (
 	"reflect"
 	"time"
 
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // TimeUnit represents units of time in the parquet type system.

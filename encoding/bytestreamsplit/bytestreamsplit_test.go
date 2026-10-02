@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/bytestreamsplit"
-	"github.com/parquet-go/parquet-go/encoding/fuzz"
-	"github.com/parquet-go/parquet-go/encoding/test"
+	"github.com/AlexAslan/parquet-go/encoding/bytestreamsplit"
+	"github.com/AlexAslan/parquet-go/encoding/fuzz"
+	"github.com/AlexAslan/parquet-go/encoding/test"
 )
 
 func FuzzEncodeFloat(f *testing.F) {

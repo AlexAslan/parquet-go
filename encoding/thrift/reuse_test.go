@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
 )
 
 // These tests exercise the decode-target reuse semantics documented on

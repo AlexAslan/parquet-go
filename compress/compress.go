@@ -8,8 +8,8 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/parquet-go/parquet-go/format"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 // The Codec interface represents parquet compression codecs implemented by the

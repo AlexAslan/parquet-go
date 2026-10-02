@@ -14,9 +14,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
-	"github.com/parquet-go/parquet-go/format"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 const (
@@ -1215,11 +1215,11 @@ func (f *FilePages) ReadPage() (Page, error) {
 			// The optimization turned out to be less effective than expected,
 			// because all the values referenced by pointers in the page header
 			// are lost when the header is reset and put back in the pool.
-			// https://github.com/parquet-go/parquet-go/pull/11
+			// https://github.com/AlexAslan/parquet-go/pull/11
 			//
 			// Even after being reset, reusing page headers still produced instability
 			// issues.
-			// https://github.com/parquet-go/parquet-go/issues/70
+			// https://github.com/AlexAslan/parquet-go/issues/70
 			header = new(format.PageHeader)
 			if err = f.decoder.Decode(header); err != nil {
 				return nil, err

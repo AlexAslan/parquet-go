@@ -9,8 +9,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // The testdata/shredded_variant directory contains a subset of the canonical

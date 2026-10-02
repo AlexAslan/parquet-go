@@ -4,9 +4,9 @@ import (
 	"bytes"
 	"io"
 
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/encoding/plain"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding/plain"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 type byteArrayPage struct {

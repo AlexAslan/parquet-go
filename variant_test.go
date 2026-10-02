@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/google/uuid"
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 func TestVariantWriteRead(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"math"
 	"slices"
 
-	ethrift "github.com/parquet-go/parquet-go/encoding/thrift"
-	"github.com/parquet-go/parquet-go/format"
+	ethrift "github.com/AlexAslan/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/format"
 	geom "github.com/twpayne/go-geom"
 	"github.com/twpayne/go-geom/encoding/wkb"
 )

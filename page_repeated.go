@@ -3,7 +3,7 @@ package parquet
 import (
 	"io"
 
-	"github.com/parquet-go/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding"
 )
 
 type repeatedPage struct {

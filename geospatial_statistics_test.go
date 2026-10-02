@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/format"
 	geom "github.com/twpayne/go-geom"
 	"github.com/twpayne/go-geom/encoding/wkb"
 )

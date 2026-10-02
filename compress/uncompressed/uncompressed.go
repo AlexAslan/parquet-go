@@ -4,7 +4,7 @@
 package uncompressed
 
 import (
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 type Codec struct {

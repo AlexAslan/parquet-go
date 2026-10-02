@@ -9,7 +9,7 @@ import (
 	"slices"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 func TestSearchBinary(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 // TestRecord defines the schema for our test data

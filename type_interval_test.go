@@ -4,8 +4,8 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/deprecated"
 )
 
 func TestIntervalNodeType(t *testing.T) {

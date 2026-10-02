@@ -3,7 +3,7 @@ package format
 import (
 	"fmt"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
 )
 
 // FooterDecoder decodes Parquet file footers (thrift compact protocol) with

@@ -7,8 +7,8 @@ import (
 	"iter"
 	"slices"
 
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // MergeRowGroups constructs a row group which is a merged view of rowGroups. If

@@ -6,7 +6,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // This file implements a columnar, cursor-based reader for VARIANT columns.

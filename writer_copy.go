@@ -6,8 +6,8 @@ import (
 	"slices"
 	"sync/atomic"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // copyPathCounter counts column chunks copied verbatim. It exists so tests can

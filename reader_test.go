@@ -17,8 +17,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/internal/quick"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/internal/quick"
 )
 
 func TestGenericReader(t *testing.T) {
@@ -965,7 +965,7 @@ func TestIssue206(t *testing.T) {
 }
 
 func TestListElementsAcrossPages(t *testing.T) {
-	// Test for https://github.com/parquet-go/parquet-go/issues/276
+	// Test for https://github.com/AlexAslan/parquet-go/issues/276
 	// Each testdata/issue276_* parquet file has 5 rows.
 	// Each row of the int64_array column has 13 int64 values.
 	// One file is written with 4 values per page, the other has 9 per page.
@@ -1059,7 +1059,7 @@ func printColumnLayout(t *testing.T, f *os.File) {
 }
 
 // TestIssue406LeadingBooleanField tests reading boolean fields in typed structs.
-// Issue: https://github.com/parquet-go/parquet-go/issues/406
+// Issue: https://github.com/AlexAslan/parquet-go/issues/406
 func TestIssue406LeadingBooleanField(t *testing.T) {
 	type Row struct {
 		F bool   `parquet:"f"`
@@ -1104,7 +1104,7 @@ func TestIssue406LeadingBooleanField(t *testing.T) {
 // every Read call. Reusing the caller's previous-call pointer let downstream
 // AssignValue mutate bytes behind any retained shallow copy of an earlier
 // batch.
-// Issue: https://github.com/parquet-go/parquet-go/issues/522
+// Issue: https://github.com/AlexAslan/parquet-go/issues/522
 func TestIssue522(t *testing.T) {
 	type Row struct {
 		ID  int64   `parquet:"id"`

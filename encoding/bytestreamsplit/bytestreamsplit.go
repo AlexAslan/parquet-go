@@ -2,8 +2,8 @@ package bytestreamsplit
 
 import (
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 // This encoder implements a version of the Byte Stream Split encoding as described

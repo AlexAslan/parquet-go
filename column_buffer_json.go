@@ -10,7 +10,7 @@ import (
 
 	"github.com/parquet-go/bitpack/unsafecast"
 	"github.com/parquet-go/jsonlite"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 var jsonNull jsonlite.Value

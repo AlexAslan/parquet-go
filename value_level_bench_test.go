@@ -11,7 +11,7 @@ func makeLevelValues() []Value {
 }
 
 // BenchmarkValueLevel measures the cost of mutating the levels of a Value in a
-// hot loop, as reported in https://github.com/parquet-go/parquet-go/issues/545.
+// hot loop, as reported in https://github.com/AlexAslan/parquet-go/issues/545.
 func BenchmarkValueLevel(b *testing.B) {
 	values := makeLevelValues()
 	b.ResetTimer()

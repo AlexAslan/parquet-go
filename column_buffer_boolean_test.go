@@ -238,7 +238,7 @@ func TestColumnBufferBooleanEdgeCases(t *testing.T) {
 // TestIssue520BooleanDeterministicTrailingBits verifies that writing a
 // non-multiple-of-8 number of booleans produces deterministic bytes even when
 // the underlying SliceBuffer carries stale memory from a pool.
-// Issue: https://github.com/parquet-go/parquet-go/issues/520
+// Issue: https://github.com/AlexAslan/parquet-go/issues/520
 func TestIssue520BooleanDeterministicTrailingBits(t *testing.T) {
 	contaminate := func(col *booleanColumnBuffer) {
 		col.bits.Grow(8)
@@ -321,7 +321,7 @@ func TestIssue520WriterByteDeterminism(t *testing.T) {
 
 // TestIssue406BooleanDictionaryLookup tests that boolean dictionary lookup correctly
 // writes values at the proper offset.
-// Issue: https://github.com/parquet-go/parquet-go/issues/406
+// Issue: https://github.com/AlexAslan/parquet-go/issues/406
 func TestIssue406BooleanDictionaryLookup(t *testing.T) {
 	// Create a boolean dictionary with both true and false values
 	boolValues := []byte{0b00000010} // false=0, true=1

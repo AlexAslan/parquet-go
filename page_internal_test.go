@@ -7,7 +7,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding"
 )
 
 type testPages struct {

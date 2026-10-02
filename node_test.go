@@ -4,11 +4,11 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/compress"
-	"github.com/parquet-go/parquet-go/compress/gzip"
-	"github.com/parquet-go/parquet-go/compress/snappy"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/compress"
+	"github.com/AlexAslan/parquet-go/compress/gzip"
+	"github.com/AlexAslan/parquet-go/compress/snappy"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding"
 )
 
 type mockNode struct {

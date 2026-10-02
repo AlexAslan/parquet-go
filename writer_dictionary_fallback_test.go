@@ -6,7 +6,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 type dictionaryFallbackRow struct {

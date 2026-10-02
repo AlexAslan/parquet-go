@@ -5,8 +5,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/internal/quick"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/internal/quick"
 )
 
 func TestNullIndex(t *testing.T) {

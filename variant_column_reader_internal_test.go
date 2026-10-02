@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding"
 )
 
 // corruptPage simulates a data page whose definition levels declare more

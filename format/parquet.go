@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
 )
 
 // Types supported by Parquet. These types are intended to be used in combination

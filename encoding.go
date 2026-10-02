@@ -4,13 +4,13 @@ import (
 	"math/bits"
 	"sync"
 
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/encoding/bitpacked"
-	"github.com/parquet-go/parquet-go/encoding/bytestreamsplit"
-	"github.com/parquet-go/parquet-go/encoding/delta"
-	"github.com/parquet-go/parquet-go/encoding/plain"
-	"github.com/parquet-go/parquet-go/encoding/rle"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/encoding/bitpacked"
+	"github.com/AlexAslan/parquet-go/encoding/bytestreamsplit"
+	"github.com/AlexAslan/parquet-go/encoding/delta"
+	"github.com/AlexAslan/parquet-go/encoding/plain"
+	"github.com/AlexAslan/parquet-go/encoding/rle"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 var (

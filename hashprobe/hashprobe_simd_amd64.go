@@ -8,7 +8,7 @@ import (
 
 	"simd/archsimd"
 
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 // This file provides implementations of the multiProbe kernels based on the

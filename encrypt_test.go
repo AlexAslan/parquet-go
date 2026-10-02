@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 // staticKeyRetriever is a test-only KeyRetriever backed by static key maps.

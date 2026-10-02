@@ -8,8 +8,8 @@ import (
 	"time"
 
 	"github.com/parquet-go/jsonlite"
-	"github.com/parquet-go/parquet-go/format"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/types/known/anypb"
 	"google.golang.org/protobuf/types/known/durationpb"

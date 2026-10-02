@@ -3,11 +3,11 @@ package parquet
 import (
 	"strconv"
 
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/hashprobe"
-	"github.com/parquet-go/parquet-go/internal/memory"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/hashprobe"
+	"github.com/AlexAslan/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 type int32Dictionary struct {

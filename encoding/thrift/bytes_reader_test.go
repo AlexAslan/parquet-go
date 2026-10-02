@@ -3,7 +3,7 @@ package thrift_test
 import (
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/thrift"
+	"github.com/AlexAslan/parquet-go/encoding/thrift"
 )
 
 type bytesReaderStruct struct {

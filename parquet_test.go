@@ -16,9 +16,9 @@ import (
 	"github.com/google/uuid"
 	"google.golang.org/protobuf/types/known/structpb"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/internal/quick"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/internal/quick"
 )
 
 const (
@@ -1371,7 +1371,7 @@ func TestReadMapAsAny(t *testing.T) {
 
 // TestReadMapAsAnyIssue103 tests that maps are properly deserialized when
 // reading with GenericReader[any]. This reproduces the exact scenario from
-// https://github.com/parquet-go/parquet-go/issues/103 where users reported
+// https://github.com/AlexAslan/parquet-go/issues/103 where users reported
 // getting {"key_value": [{"key":"a","value":1}]} instead of {"a":1}.
 func TestReadMapAsAnyIssue103(t *testing.T) {
 	// This is the exact struct from issue #103
@@ -1470,7 +1470,7 @@ func TestReadListAsAnyIssue103(t *testing.T) {
 
 // TestReadFileWithNullColumns tests reading a Parquet file that contains
 // columns where all values are NULL (logical_type=Null).
-// Reproduces https://github.com/parquet-go/parquet-go/issues/151
+// Reproduces https://github.com/AlexAslan/parquet-go/issues/151
 func TestReadFileWithNullColumns(t *testing.T) {
 	rows, err := parquet.ReadFile[any]("testdata/null_columns.parquet")
 	if err != nil {
@@ -1493,7 +1493,7 @@ func TestReadFileWithNullColumns(t *testing.T) {
 // This test verifies the fix for the issue where parquet-go could read NULL-type columns
 // (from PyArrow-generated files) but could not write them.
 //
-// Reproduces: https://github.com/parquet-go/parquet-go/issues/517
+// Reproduces: https://github.com/AlexAslan/parquet-go/issues/517
 func TestWriteFileWithNullColumns(t *testing.T) {
 	// Read the existing test file with NULL columns
 	rows, err := parquet.ReadFile[any]("testdata/null_columns.parquet")
@@ -1574,7 +1574,7 @@ func must[T any](v T, err error) T {
 }
 
 // TestIssue69 reproduces the issue reported in
-// https://github.com/parquet-go/parquet-go/issues/69
+// https://github.com/AlexAslan/parquet-go/issues/69
 // where using GenericReader[any] to read rows and GenericWriter[any] to write them
 // causes a panic: "cannot create parquet value of type BYTE_ARRAY from go value of type interface {}"
 func TestIssue69(t *testing.T) {
@@ -1670,7 +1670,7 @@ func TestIssue69(t *testing.T) {
 }
 
 // TestIssue445 reproduces the issue reported in
-// https://github.com/parquet-go/parquet-go/issues/445
+// https://github.com/AlexAslan/parquet-go/issues/445
 // where array elements become zero-values when using parquet-element:",optional"
 func TestIssue445(t *testing.T) {
 	type Data struct {
@@ -1703,7 +1703,7 @@ func TestIssue445(t *testing.T) {
 }
 
 // TestIssue40MapValueNestedStruct reproduces the issue reported in
-// https://github.com/parquet-go/parquet-go/issues/40
+// https://github.com/AlexAslan/parquet-go/issues/40
 // where reading parquet data containing map[string]StructType using a schema
 // from NewSchema() panics with "reflect: call of reflect.Value.MapIndex on struct Value".
 func TestIssue40MapValueNestedStruct(t *testing.T) {

@@ -1,6 +1,6 @@
 package parquet
 
-import "github.com/parquet-go/parquet-go/internal/bytealg"
+import "github.com/AlexAslan/parquet-go/internal/bytealg"
 
 type columnLevels struct {
 	repetitionDepth byte

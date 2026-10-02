@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/internal/quick"
+	"github.com/AlexAslan/parquet-go/internal/quick"
 )
 
 var benchmarkBufferSizes = [...]int{

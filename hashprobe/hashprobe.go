@@ -34,9 +34,9 @@ import (
 	"sync"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/hashprobe/aeshash"
-	"github.com/parquet-go/parquet-go/hashprobe/wyhash"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/hashprobe/aeshash"
+	"github.com/AlexAslan/parquet-go/hashprobe/wyhash"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 const (

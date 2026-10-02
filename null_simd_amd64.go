@@ -7,7 +7,7 @@ import (
 
 	"simd/archsimd"
 
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 // GOEXPERIMENT=simd implies purego semantics: no assembly at all. The null

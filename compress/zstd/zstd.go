@@ -3,8 +3,8 @@ package zstd
 
 import (
 	"github.com/klauspost/compress/zstd"
-	"github.com/parquet-go/parquet-go/format"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 type Level = zstd.EncoderLevel

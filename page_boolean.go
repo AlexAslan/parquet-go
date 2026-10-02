@@ -4,8 +4,8 @@ import (
 	"io"
 
 	"github.com/parquet-go/bitpack"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 type booleanPage struct {

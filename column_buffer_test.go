@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 func TestBroadcastValueInt32(t *testing.T) {

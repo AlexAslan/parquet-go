@@ -8,9 +8,9 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/encoding/plain"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/encoding/plain"
 )
 
 func TestPage(t *testing.T) {

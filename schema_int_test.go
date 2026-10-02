@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 func testRoundTrip[T comparable](t *testing.T, rows []T) {

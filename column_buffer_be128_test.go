@@ -6,7 +6,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/deprecated"
 )
 
 func TestColumnBufferBE128WriteTypes(t *testing.T) {

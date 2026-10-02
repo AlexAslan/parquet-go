@@ -4,8 +4,8 @@ import (
 	"io"
 
 	"github.com/google/uuid"
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/internal/unsafecast"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/internal/unsafecast"
 )
 
 type be128Page struct {

@@ -5,10 +5,10 @@ import (
 	"io"
 	"slices"
 
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/internal/bytealg"
-	"github.com/parquet-go/parquet-go/internal/memory"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/internal/bytealg"
+	"github.com/AlexAslan/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 // repeatedColumnBuffer is an implementation of the ColumnBuffer interface used

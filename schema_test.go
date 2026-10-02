@@ -7,7 +7,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/parquet-go/parquet-go"
+	"github.com/AlexAslan/parquet-go"
 )
 
 func TestSchemaOf(t *testing.T) {

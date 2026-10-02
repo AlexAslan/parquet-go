@@ -1887,7 +1887,7 @@ func TestDurationWithTimeLogicalType(t *testing.T) {
 
 // TestIssue316WriteValueFuncOfMapWithInvalidValue tests that writeValueFuncOfMap
 // handles invalid reflect.Value correctly (i.e., does not panic).
-// This is a regression test for https://github.com/parquet-go/parquet-go/issues/316
+// This is a regression test for https://github.com/AlexAslan/parquet-go/issues/316
 func TestIssue316WriteValueFuncOfMapWithInvalidValue(t *testing.T) {
 	// Create a MAP schema
 	schema := NewSchema("test", Group{
@@ -2489,7 +2489,7 @@ func assertOptionalZeroIsNull[T any](t *testing.T, row T) {
 // TestIssue417MapStructOptionalField tests that GenericWriter[any] can write
 // maps with struct values where the schema uses value fields with optional tag
 // but the data uses pointer fields for the same purpose.
-// See https://github.com/parquet-go/parquet-go/issues/417
+// See https://github.com/AlexAslan/parquet-go/issues/417
 func TestIssue417MapStructOptionalField(t *testing.T) {
 	type SchemaNestedStruct struct {
 		NestedInt32 int32 `parquet:"nested_int32,optional"`
@@ -2558,7 +2558,7 @@ func TestIssue417MapStructOptionalField(t *testing.T) {
 // from an interface or a map are unaddressable, and reflect.Value.Bytes
 // panics on unaddressable arrays.
 //
-// https://github.com/parquet-go/parquet-go/issues/593
+// https://github.com/AlexAslan/parquet-go/issues/593
 func TestUnaddressableByteArray(t *testing.T) {
 	tests := []struct {
 		name   string

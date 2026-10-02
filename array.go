@@ -3,7 +3,7 @@ package parquet
 import (
 	"unsafe"
 
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 // makeArrayVlaue constructs a sparse.Array from a slice of Value,

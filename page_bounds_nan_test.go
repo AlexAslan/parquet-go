@@ -5,7 +5,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 func TestFloatPageBoundsExcludeNaN(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"time"
 	"unsafe"
 
-	"github.com/parquet-go/parquet-go"
-	"github.com/parquet-go/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go"
+	"github.com/AlexAslan/parquet-go/deprecated"
 )
 
 func TestSizeOfValue(t *testing.T) {
@@ -41,7 +41,7 @@ func TestValueString(t *testing.T) {
 		{parquet.Int64Value(math.MaxInt64), "9223372036854775807"},
 		{parquet.FloatValue(0.5), "0.5"},
 		{parquet.DoubleValue(0.1), "0.1"},
-		// Regression test for https://github.com/parquet-go/parquet-go/issues/582:
+		// Regression test for https://github.com/AlexAslan/parquet-go/issues/582:
 		// doubles must be formatted with 64-bit precision.
 		{parquet.DoubleValue(1.0000000596046448), "1.0000000596046448"},
 		{parquet.ByteArrayValue([]byte("hello")), "hello"},

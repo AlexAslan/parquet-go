@@ -1,8 +1,8 @@
 package parquet
 
 import (
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 // ColumnBuffer is an interface representing columns of a row group.

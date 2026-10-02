@@ -9,7 +9,7 @@ import (
 	"simd/archsimd"
 
 	"github.com/parquet-go/bitpack/unsafecast"
-	"github.com/parquet-go/parquet-go/sparse"
+	"github.com/AlexAslan/parquet-go/sparse"
 )
 
 // This file provides implementations of the AES hash functions based on the

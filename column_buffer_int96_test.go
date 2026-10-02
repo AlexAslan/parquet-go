@@ -4,7 +4,7 @@ import (
 	"math"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/deprecated"
 )
 
 // TestInt96ColumnBufferWriteTypes tests that int96ColumnBuffer

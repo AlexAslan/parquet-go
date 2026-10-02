@@ -5,8 +5,8 @@ import (
 	"slices"
 
 	"github.com/google/uuid"
-	"github.com/parquet-go/parquet-go/format"
-	"github.com/parquet-go/parquet-go/variant"
+	"github.com/AlexAslan/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/variant"
 )
 
 // This file implements the construct_variant reconstruction algorithm from

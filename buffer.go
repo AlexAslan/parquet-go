@@ -8,8 +8,8 @@ import (
 	"sort"
 	"sync/atomic"
 
-	"github.com/parquet-go/parquet-go/internal/debug"
-	"github.com/parquet-go/parquet-go/internal/memory"
+	"github.com/AlexAslan/parquet-go/internal/debug"
+	"github.com/AlexAslan/parquet-go/internal/memory"
 )
 
 // GenericBuffer is similar to a Buffer but uses a type parameter to define the

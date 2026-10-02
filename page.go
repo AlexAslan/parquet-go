@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/parquet-go/parquet-go/encoding"
-	"github.com/parquet-go/parquet-go/internal/debug"
+	"github.com/AlexAslan/parquet-go/encoding"
+	"github.com/AlexAslan/parquet-go/internal/debug"
 )
 
 // Page values represent sequences of parquet values. From the Parquet

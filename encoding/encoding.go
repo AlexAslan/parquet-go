@@ -5,8 +5,8 @@ package encoding
 import (
 	"math"
 
-	"github.com/parquet-go/parquet-go/deprecated"
-	"github.com/parquet-go/parquet-go/format"
+	"github.com/AlexAslan/parquet-go/deprecated"
+	"github.com/AlexAslan/parquet-go/format"
 )
 
 const (

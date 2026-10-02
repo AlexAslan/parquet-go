@@ -13,8 +13,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/parquet-go/parquet-go/encoding/fuzz"
-	"github.com/parquet-go/parquet-go/internal/quick"
+	"github.com/AlexAslan/parquet-go/encoding/fuzz"
+	"github.com/AlexAslan/parquet-go/internal/quick"
 )
 
 func FuzzEncodeBoolean(f *testing.F) {
